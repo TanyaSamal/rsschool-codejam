@@ -1,7 +1,8 @@
 const assert = require('assert');
 
 Object.freeze(assert);
-const getNewArr = require('./src/sumOfOther');
+
+const getNewArr = require('../src/sumOfOther');
 
 describe('Sum Of Other elements in Array', () => {
   it('1', () => {
