@@ -1,4 +1,6 @@
 module.exports = function recursion(obj) {
+  if (Object.keys(obj).length === 0 || !obj) return 'null';
+
   const result = [];
   let i = 0;
 
