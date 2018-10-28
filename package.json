@@ -4,8 +4,8 @@
   "description": "Let's do test",
   "main": "test.js",
   "scripts": {
-    "test": "mocha tests/testSumOfOther.js tests/testMake.js",
-    "eslint": "eslint src/sumOfOther.js src/make.js || true"
+    "test": "mocha tests/testSumOfOther.js tests/testMake.js tests/testRecursion.js",
+    "eslint": "eslint src/sumOfOther.js src/make.js src/recursion.js || true"
   },
   "env": [ "mocha" ],
   "author": "",
